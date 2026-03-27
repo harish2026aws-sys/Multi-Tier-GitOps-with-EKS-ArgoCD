@@ -1,0 +1,5 @@
+use("ecommerce");
+db.products.insertMany([
+    { name: "Laptop", price: 50000 },
+    { name: "Mobile", price: 20000 }
+]);
